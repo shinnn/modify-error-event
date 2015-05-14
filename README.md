@@ -2,10 +2,9 @@
 
 [![NPM version](https://img.shields.io/npm/v/modify-error-event.svg)](https://www.npmjs.com/package/modify-error-event)
 [![Build Status](https://travis-ci.org/shinnn/modify-error-event.svg?branch=master)](https://travis-ci.org/shinnn/modify-error-event)
-[![Build status](https://ci.appveyor.com/api/projects/status/s8nn7eflwuqml299?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/modify-error-event)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/modify-error-event.svg)](https://coveralls.io/r/shinnn/modify-error-event)
-[![Dependency Status](https://img.shields.io/david/shinnn/modify-error-event.svg?label=deps)](https://david-dm.org/shinnn/modify-error-event)
-[![devDependency Status](https://img.shields.io/david/dev/shinnn/modify-error-event.svg?label=devDeps)](https://david-dm.org/shinnn/modify-error-event#info=devDependencies)
+[![Dependency Status](https://img.shields.io/david/shinnn/modify-error-event.svg)](https://david-dm.org/shinnn/modify-error-event)
+[![devDependency Status](https://img.shields.io/david/dev/shinnn/modify-error-event.svg)](https://david-dm.org/shinnn/modify-error-event#info=devDependencies)
 
 Modify the value of the specific object's `error` [event](https://nodejs.org/api/events.html)
 
