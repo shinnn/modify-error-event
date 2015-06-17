@@ -9,17 +9,17 @@
 Modify the value of the specific object's `error` [event](https://nodejs.org/api/events.html)
 
 ```javascript
-var EventEmitter = require('events').EventEmitter;
-var modifyErrorEvent = require('modify-error-event');
+const EventEmitter = require('events').EventEmitter;
+const modifyErrorEvent = require('modify-error-event');
 
-var emitter = new EventEmitter();
+let emitter = new EventEmitter();
 
-modifyErrorEvent(emitter, function(err) {
+modifyErrorEvent(emitter, err => {
   err.message = 'bar';
   return err;
 });
 
-emitter.on('error', function(err) {
+emitter.on('error', err => {
   err.message; //=> 'bar'
 });
 
@@ -37,7 +37,7 @@ npm install modify-error-event
 ## API
 
 ```javascript
-var modifyErrorEvent = require('modify-error-event');
+const modifyErrorEvent = require('modify-error-event');
 ```
 
 ### modifyErrorEvent(*eventEmitter*, *modifier*)
@@ -49,17 +49,17 @@ Return: `Object` (Same as the first argument)
 It changes the first argument of the `error` event listeners in response to the return value of the *modifier* function.
 
 ```javascript
-var EventEmitter = require('events').EventEmitter;
-var modifyErrorEvent = require('modify-error-event');
+const EventEmitter = require('events').EventEmitter;
+const modifyErrorEvent = require('modify-error-event');
 
-var emitter = new EventEmitter();
+let emitter = new EventEmitter();
 
-modifyErrorEvent(emitter, function(err) {
+modifyErrorEvent(emitter, err => {
   err.message += 'b';
   return err;
 });
 
-modifyErrorEvent(emitter, function(val) {
+modifyErrorEvent(emitter, val => {
   err.message += 'c';
   return err;
 });
