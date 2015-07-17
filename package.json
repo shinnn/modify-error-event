@@ -10,7 +10,7 @@
     "coverage": "node --harmony_arrow_functions node_modules/.bin/istanbul cover test.js",
     "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
   },
-  "license": "MIT",
+  "license": "Unlicense",
   "files": [
     "index.js"
   ],
@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "@shinnn/eslintrc-node": "^1.0.2",
-    "eslint": "^0.23.0",
-    "istanbul": "^0.3.15",
+    "eslint": "^0.24.1",
+    "istanbul": "^0.3.17",
     "istanbul-coveralls": "^1.0.3",
     "tape": "^4.0.0"
   }

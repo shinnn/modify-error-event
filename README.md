@@ -75,6 +75,4 @@ function listener(err) {
 
 ## License
 
-Copyright (c) 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
-
-Licensed under [the MIT License](./LICENSE).
+[The Unlicense](./LICENSE).

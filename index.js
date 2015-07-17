@@ -1,7 +1,3 @@
-/*!
- * modify-error-event | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/modify-error-event
-*/
 'use strict';
 
 var modifyEvent = require('modify-event');
