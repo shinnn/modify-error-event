@@ -1,11 +1,11 @@
-'use strict';
+'use strong';
 
-const EventEmitter = require('events').EventEmitter;
+const {EventEmitter} = require('events');
 
 const modifyErrorEvent = require('.');
-const test = require('tape');
+const {test} = require('tape');
 
-let emitter = new EventEmitter();
+const emitter = new EventEmitter();
 
 test('modifyErrorEvent()', t => {
   t.plan(7);
@@ -19,7 +19,7 @@ test('modifyErrorEvent()', t => {
   );
 
   emitter
-  .on('error', data => {
+  .on('error', function(data) {
     t.strictEqual(this, emitter, 'should call the listener in the same context as original\'s.');
     t.strictEqual(data, 2, 'should modify the value of event.');
   })
