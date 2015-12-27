@@ -1,6 +1,6 @@
 {
   "name": "modify-error-event",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modify the value of the specific object's error event",
   "repository": "shinnn/modify-error-event",
   "author": "Shinnosuke Watanabe <snnskwtnb@gmail.com> (https://github.com/shinnn)",
