@@ -3,8 +3,8 @@
 [![NPM version](https://img.shields.io/npm/v/modify-error-event.svg)](https://www.npmjs.com/package/modify-error-event)
 [![Build Status](https://travis-ci.org/shinnn/modify-error-event.svg?branch=master)](https://travis-ci.org/shinnn/modify-error-event)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/modify-error-event.svg)](https://coveralls.io/r/shinnn/modify-error-event)
-[![Dependency Status](https://img.shields.io/david/shinnn/modify-error-event.svg)](https://david-dm.org/shinnn/modify-error-event)
-[![devDependency Status](https://img.shields.io/david/dev/shinnn/modify-error-event.svg)](https://david-dm.org/shinnn/modify-error-event#info=devDependencies)
+[![dependencies Status](https://david-dm.org/shinnn/modify-error-event/status.svg)](https://david-dm.org/shinnn/modify-error-event)
+[![devDependencies Status](https://david-dm.org/shinnn/modify-error-event/dev-status.svg)](https://david-dm.org/shinnn/modify-error-event?type=dev)
 
 Modify the value of the specific object's `error` [event](https://nodejs.org/api/events.html)
 
